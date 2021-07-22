@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "WEBBLO",
+    "version": "1.9.0",
+    "description": "Block non-important info from your browsers and do be more Productive",
+  
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+    }],
+    "action": {
+        "default_tittle": "WEBBLO",
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "task-blocker-i.png",
+            "32": "task-blocker-i.png",
+            "48": "task-blocker-i.png",
+            "128": "task-blocker-i.png"
+        }
+    },
+    "icons": {
+        "16": "task-blocker-i.png",
+        "32": "task-blocker-i.png",
+        "48": "task-blocker-i.png",
+        "128": "task-blocker-i.png"
+    }
+}
